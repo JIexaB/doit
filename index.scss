@@ -1,0 +1,23 @@
+ .container {
+         display: -webkit-flex;
+	 display: flex;         
+         justify-content: center;         
+       }
+
+       .container2 {         
+         flex-direction: column;        
+       }
+
+       .header {
+         flex: 1;
+       }
+       
+
+       .main {         
+         flex: 3;	          
+       }
+         
+
+       .button-wrapper {         
+         float: right;         
+       }
