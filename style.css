@@ -1,3 +1,11 @@
+@charset "UTF-8";
+.inputFormColor, .form-input:focus {
+  background: #ffe;
+  /* ���� ���� */
+  border: 1px solid #29B0D9;
+  /* ��������� ����� */
+}
+
 .container {
   display: -webkit-flex;
   display: flex;

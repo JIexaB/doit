@@ -1,4 +1,17 @@
- .container {
+      .inputFormColor {
+         background: #ffe; /* Цвет фона */
+         border: 1px solid #29B0D9; /* Параметры рамки */
+       }
+         
+
+
+
+       .form-input:focus{
+         @extend .inputFormColor
+
+       }
+
+       .container {
          display: -webkit-flex;
 	 display: flex;         
          justify-content: center;         
