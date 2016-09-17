@@ -1,6 +1,6 @@
       .inputFormColor {
          background: #ffe; /* Цвет фона */
-         border: 1px solid #29B0D9; /* Параметры рамки */
+         
        }
          
 
@@ -23,10 +23,18 @@
 
        .header {
          flex: 1;
+         font-family: Tahoma, sans-serif; /* Рубленый шрифт */
+       }
+
+       #header h2 {
+         color: blue; 
+              
        }
        
+       
 
-       .main {         
+       main {
+                 
          flex: 3;	          
        }
          
