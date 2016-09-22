@@ -1,15 +1,8 @@
-      .inputFormColor {
-         background: #ffe; /* Цвет фона */
-         
-       }
-         
+           
 
 
 
-       .form-input:focus{
-         @extend .inputFormColor
-
-       }
+      
 
        .container {
          display: -webkit-flex;
@@ -23,19 +16,38 @@
 
        .header {
          flex: 1;
-         font-family: Tahoma, sans-serif; /* Рубленый шрифт */
        }
-
-       #header h2 {
-         color: blue; 
-              
-       }
-       
-       
 
        main {
                  
          flex: 3;	          
+       }
+
+       .container {
+         color: blue;
+
+         .container2 {
+         font-family: Tahoma, sans-serif; /* Рубленый шрифт */
+
+           main {
+        
+             h2 {
+             }
+           }
+         }               
+       }       
+       
+
+       
+
+       .inputFormColor {
+         background: #ffe; /* Цвет фона */
+         
+       }
+
+        .form-input:focus{
+         @extend .inputFormColor
+
        }
          
 

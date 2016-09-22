@@ -1,9 +1,4 @@
 @charset "UTF-8";
-.inputFormColor, .form-input:focus {
-  background: #ffe;
-  /* ���� ���� */
-}
-
 .container {
   display: -webkit-flex;
   display: flex;
@@ -16,16 +11,24 @@
 
 .header {
   flex: 1;
-  font-family: Tahoma, sans-serif;
-  /* �������� ����� */
-}
-
-#header h2 {
-  color: blue;
 }
 
 main {
   flex: 3;
+}
+
+.container {
+  color: blue;
+}
+
+.container .container2 {
+  font-family: Tahoma, sans-serif;
+  /* �������� ����� */
+}
+
+.inputFormColor, .form-input:focus {
+  background: #ffe;
+  /* ���� ���� */
 }
 
 .button-wrapper {
